@@ -29,7 +29,7 @@ resource "aws_instance" "server2" {
     Name = "Server2"
   }
 }
-
+#
 # Output Public IPs
 output "instance_ips" {
   value = [
